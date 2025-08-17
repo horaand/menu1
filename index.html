@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Aurora Nav — Modern CSS Menu</title>
+    <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+        <header class="site-header">
+    <div class="container header-bar">
+      <a class="brand" href="#" aria-label="Home">
+        <span class="brand-badge" aria-hidden="true"></span>
+        <strong>Aurora</strong>
+      </a>
+
+      <input id="nav-toggle" class="nav-toggle" type="checkbox" />
+      <label for="nav-toggle" class="hamburger" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </label>
+
+      <nav class="nav" aria-label="Primary">
+        <ul class="menu">
+          <li><a class="active" href="#" aria-current="page">Home</a></li>
+          <li class="has-sub">
+            <details>
+              <summary>Products</summary>
+              <ul class="dropdown">
+                <li><a href="#">Hosting</a></li>
+                <li><a href="#">Analytics</a></li>
+                <li><a href="#">Automation</a></li>
+              </ul>
+            </details>
+          </li>
+          <li><a href="#">Pricing</a></li>
+          <li class="has-sub">
+            <details>
+              <summary>Resources</summary>
+              <ul class="dropdown">
+                <li><a href="#">Docs</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Support</a></li>
+              </ul>
+            </details>
+          </li>
+        </ul>
+        <div class="nav-cta">
+          <a class="link" href="#">Sign in</a>
+          <a class="btn" href="#">Get started</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+   <main class="container content">
+    <section class="hero">
+      <h1>Modern CSS-Only Menu</h1>
+      <p>Glass, gradient underline, dropdowns via <code>&lt;details&gt;</code>, 
+        and a mobile hamburger — all without JavaScript.</p>
+      <a class="btn hero-cta" href="#">Try it free</a>
+    </section>
+
+    <section class="grid">
+      <article class="card">Clean design tokens & variables</article>
+      <article class="card">No external libraries or assets</article>
+      <article class="card">Accessible, keyboard-friendly</article>
+      <article class="card">Responsive down to small phones</article>
+    </section>
+    <section class="spacer"></section>
+  </main>
+
+  <footer class="container page-footer">
+    <small>© 2025 Aurora. CSS & HTML are self-authored and MIT-licensed.</small>
+  </footer>
+    </body>
+</html>
